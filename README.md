@@ -110,7 +110,7 @@ Diterapkan terpisah untuk Case 1 dan Case 2 (`clean_text_c1`, `clean_text_c2`), 
 - **Lemmatization**: `WordNetLemmatizer`, diterapkan token demi token.
 
 ### 4.5 Split Data
-`train_test_split` dengan `test_size=0.2`, `random_state=42`, dijalankan terpisah untuk Case 1 dan Case 2 (lihat tabel di Bagian 3.3 untuk ukurannya).
+`train_test_split` dengan `test_size=0.2`, `random_state=42`, dijalankan terpisah untuk Case 1 dan Case 2.
 
 ### 4.6 Vectorization (TF-IDF)
 ```python
